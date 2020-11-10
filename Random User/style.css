@@ -1,0 +1,105 @@
+header {
+    width: 100%;
+    height: fit-content;
+    background: black;
+    color: #fff;
+    text-align: center;
+    overflow: hidden
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 100px;
+    font-size: 48px;
+    font-weight: 100;
+    text-transform: uppercase
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 100
+}
+
+
+.card_offset {
+    width: 60%;
+    height: fit-content;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card {
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    overflow: hidden;
+    text-align: center;
+}
+.card .user_photo {
+    position: relative;
+    background: #fff;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, .25)
+}
+
+.card .user_photo img {
+    width: 150px;
+    border-radius: 50%
+}
+
+.card #user_title {
+    color: #999;
+    font-size: 18px;
+    margin: 0
+}
+
+.card #user_value {
+    color: #2c2e31;
+    font-size: 38px;
+    margin: 5px;
+    text-transform: capitalize
+}
+input[type=range]{
+    appearance: none;
+    width: 20%;
+    height: 8px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+}
+#valore{
+    color: #cccccc;
+}
+#genera{
+    padding: 15px 25px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #cccccc;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#genera:active {
+    background-color: darkgray;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#gender{
+    border-radius: 5px;
+    background-color: dodgerblue;
+}
+
+
+
+
