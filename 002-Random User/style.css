@@ -4,7 +4,7 @@ header {
     background: black;
     color: #fff;
     text-align: center;
-    overflow: hidden
+    overflow: hidden;
 }
 
 header h1 {
@@ -99,7 +99,122 @@ input[type=range]{
     border-radius: 5px;
     background-color: dodgerblue;
 }
+#barraIcone{
+    overflow: hidden;
+    position: relative;
+    width: 675px;
+    height: 100px;
+    margin-left: 32.4%;
+}
+.icona1{
+    overflow: hidden;
+    position: absolute;
+    height: 200px;
+    width: 85px;
+    top: 0px;
+    z-index: 6;
 
+}
+#icon1{
+    position: absolute;
+    left: 0;
 
+}
+.icona1:hover #icon1{
+    animation-name: menu;
+    animation-duration: 1s;
+}
+@keyframes menu {
+    from {top: 0px;}
+    to {top: -100px;}
+}
+#icon2{
+    position: absolute;
+    left: -135px;
 
+}
+.icona2{
+    overflow: hidden;
+    position: absolute;
+    height: 200px;
+    width: 85px;
+    left: 90px;
+    top: 0px;
+    z-index: 5;
+}
+.icona2:hover #icon2{
+    animation-name: menu;
+    animation-duration: 1s;
+}
+#icon3{
+    position: absolute;
+    left: -270px;
 
+}
+.icona3{
+    overflow: hidden;
+    position: absolute;
+    height: 200px;
+    width: 85px;
+    left: 180px;
+    top: 0px;
+    z-index: 4;
+}
+.icona3:hover #icon3{
+    animation-name: menu;
+    animation-duration: 1s;
+}
+#icon4{
+    position: absolute;
+    left: -405px;
+
+}
+.icona4{
+    overflow: hidden;
+    position: absolute;
+    height: 200px;
+    width: 85px;
+    left: 270px;
+    top: 0px;
+    z-index: 3;
+}
+.icona4:hover #icon4{
+    animation-name: menu;
+    animation-duration: 1s;
+}
+#icon5{
+    position: absolute;
+    left: -540px;
+
+}
+.icona5{
+    overflow: hidden;
+    position: absolute;
+    height: 200px;
+    width: 85px;
+    left: 360px;
+    top: 0px;
+    z-index: 2;
+}
+.icona5:hover #icon5{
+    animation-name: menu;
+    animation-duration: 1s;
+}
+#icon6{
+    position: absolute;
+    left: -675px;
+}
+.icona6{
+    overflow: hidden;
+    position: absolute;
+    height: 200px;
+    width: 85px;
+    left: 450px;
+    top: 0px;
+    z-index: 1;
+
+}
+.icona6:hover #icon6{
+    animation-name: menu;
+    animation-duration: 1s;
+}
