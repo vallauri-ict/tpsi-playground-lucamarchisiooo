@@ -26,6 +26,9 @@ header p {
     height: fit-content;
     text-align: center;
     overflow: hidden;
+    float: none;
+    left: 25%;
+    position: relative;
 }
 
 .card {
@@ -217,4 +220,25 @@ input[type=range]{
 .icona6:hover #icon6{
     animation-name: menu;
     animation-duration: 1s;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.prev:hover, .next:hover {
+    background-color: #ccccdd;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }

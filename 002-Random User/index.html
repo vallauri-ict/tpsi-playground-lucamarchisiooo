@@ -33,8 +33,8 @@
     <label>Gender:</label>
     <select name="gender" id="gender">
         <option value="null" selected="selected">None</option>
-        <option class="option" value="m">Man</option>
-        <option class="option" value="f">Girl</option>
+        <option class="option" value="male">Man</option>
+        <option class="option" value="female">Girl</option>
     </select>
 
     <br>
@@ -48,22 +48,22 @@
     <br>
     <div id="barraIcone">
         <div class="icona1">
-            <img id="icon1" src="https://randomuser.me/img/card_icons.png">
+            <img id="icon1" name="0" src="https://randomuser.me/img/card_icons.png" onclick="changeValue(id,name)">
         </div>
-        <div class="icona2">
-            <img id="icon2" src="https://randomuser.me/img/card_icons.png">
+        <div class="icona2" >
+            <img id="icon2" name="0" onclick="changeValue(id, name)" src="https://randomuser.me/img/card_icons.png">
         </div>
-        <div class="icona3">
-            <img id="icon3" src="https://randomuser.me/img/card_icons.png">
+        <div class="icona3" >
+            <img id="icon3" name="0" onclick="changeValue(id, name)" src="https://randomuser.me/img/card_icons.png">
         </div>
-        <div class="icona4">
-            <img id="icon4" src="https://randomuser.me/img/card_icons.png">
+        <div class="icona4" >
+            <img id="icon4" name="0" onclick="changeValue(id,name)" src="https://randomuser.me/img/card_icons.png">
         </div>
-        <div class="icona5">
-            <img id="icon5" src="https://randomuser.me/img/card_icons.png">
+        <div class="icona5" >
+            <img id="icon5" name="0" onclick="changeValue(id,name)" src="https://randomuser.me/img/card_icons.png">
         </div>
-        <div class="icona6">
-            <img id="icon6" src="https://randomuser.me/img/card_icons.png">
+        <div class="icona6" >
+            <img id="icon6" name="0" onclick="changeValue(id,name)" src="https://randomuser.me/img/card_icons.png">
         </div>
 
     </div>
@@ -74,6 +74,8 @@
 <div class="card_offset">
     <div class="card">
         <div class="user_photo horizontal_center" id="user_photo"><img src=""></div>
+        <a class="prev" onclick="changeCard(-1)">&#10094;</a>
+        <a class="next" onclick="changeCard(1)">&#10095;</a>
         <p id="user_title">Hi, My name is</p>
         <p id="user_value">...</p>
     </div>
